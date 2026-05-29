@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&family=Lora:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
   <title>Русский язык · ЕГЭ 2026 — тренажёр всех заданий 1–27</title>
-  <link rel="stylesheet" href="styles.css?v=1" />
+  <link rel="stylesheet" href="styles.css?v=2" />
 </head>
 <body>
   <div class="aurora" aria-hidden="true">
@@ -87,6 +87,10 @@
         <button class="btn btn-ghost" id="reset-progress" type="button">Сбросить прогресс</button>
         <p class="map-note">Прогресс сохраняется в&nbsp;этом браузере автоматически.</p>
       </div>
+
+      <button class="teacher-btn" id="teacher-btn" type="button" aria-label="Кнопка учителя — открыть все станции по коду">
+        <span class="tb-ico" aria-hidden="true">🔑</span><span class="tb-text">Кнопка учителя</span>
+      </button>
     </section>
 
     <!-- ===== STATION / PLAY ===== -->
@@ -195,6 +199,6 @@
   <canvas id="confetti" aria-hidden="true"></canvas>
 
   <script src="data.js?v=1"></script>
-  <script src="app.js?v=1"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>
